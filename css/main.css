@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: #ffbf69;
+    height: 75px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+div li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.item-left {
+    position: absolute;
+    left: 10vh;
+}
+.item-right {
+    position: absolute;
+    right: 4vh;
+}
+
+.nav-container .item-left li{
+    list-style: none;
+}
+
+header .nav-container .item-right li {
+    display: inline-block;
+    padding-left: 40px;
+    list-style: none;
+}
+
+div a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/***************** Intro *******************/
+
+.intro {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url('/img/background.png');
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.intro-impact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-impact > h1 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 150px;
+}
+
+.intro-impact > p {
+    position: absolute;
+    left: 55px;
+    top: 320px;
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+}
+
+.intro-impact > button {
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    left: 55px;
+    top: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 140px;
+    height: 60px;
+}
+
+/***************+ Acerca de **************/*
+
+.acercade {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.acercade > p {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/**************** Productos *****************/
+
+
+#productos-container {
+    width: 100%;
+    height: 400px;
+    background-color: #01e1e161;
+}
+
+.caja1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 33%;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    height: 67%;
+    justify-content: space-evenly;
+}
+
+.caja2 {
+    justify-items: center;
+    justify-content: center;
+}
+
+.caja3 {
+    justify-items: center;
+    justify-content: center;
+}
+
+.caja4 {
+    justify-items: center;
+    justify-content: center;
+}
+
+.cards img {
+    width: 100px;
+    height: 100px;
+}
+
+/******************* Informacion *********************/
+
+main #informacion {
+    display: flex;
+    background-image: url('/img/bg-grid.png');
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.info-img {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+}
+
+.info-text > h2 {
+    width: 200px;
+    align-self: flex-start;
+    margin: 0px 10px 20px 60px;
+}
+
+.info-text > p {
+    margin: 0px 10px 0px 60px;
+}
+
+.info-img > img {
+    width: 240px;
+    height: 240px;
+}
+
+/******************+ Footer ******************/
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
+    background-color: #212223;
+}
+
+.footer-list > li {
+    list-style: none;
+    color: white;
+}
