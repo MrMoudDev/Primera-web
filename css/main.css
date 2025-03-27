@@ -21,6 +21,7 @@ div li a {
     list-style: none;
     text-decoration: none;
     color: black;
+    font-size: 19px;
 }
 
 .item-left {
@@ -153,8 +154,8 @@ div a:hover {
 }
 
 .cards img {
-    width: 100px;
-    height: 100px;
+    width: 135px;
+    height: 135px;
 }
 
 /******************* Informacion *********************/
